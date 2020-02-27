@@ -1,0 +1,21 @@
+<%= @employee.name %><br>
+<img src=<%= @employee.img_url %>>
+
+<ul>
+  <li>
+      <label>Alias:</label>
+    <%= @employee.alias %>
+  </li>
+  <li>
+      <label>Title:</label>
+    <%= @employee.title %>
+  </li>
+  <li>
+      <label>Office:</label>
+    <%= @employee.office %>
+  </li>
+  <li>
+    <label>Dog:</label>
+    <%= @employee.dog.name %>
+  </li>
+</ul>
